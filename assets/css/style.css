@@ -1,0 +1,291 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    height:250px;
+}
+
+body
+{
+    background-color: rgba(243, 240, 240, 0.596);
+
+}
+.login
+{
+    background-color: white;
+    width:350px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 33%;
+    left:50%;
+    height:420px;
+    
+    
+    border: 0.9px solid rgba(207, 204, 204, 0.521);
+     
+}
+
+.login img
+{
+    height: 70px;
+    position: absolute;
+    left:75px;
+    justify-content: center;
+    align-items: center;
+    top:10px;
+}
+
+
+.user
+{
+    position: absolute;
+    width: 290px;
+    border: 1px solid #ccc;
+    background-color: rgb(243, 240, 240);
+    border-radius: 5px;
+    height: 40px;
+    top: 120px;
+    left: 30px;
+    padding-left:8px;
+    display: inline-block;
+}
+
+.user:focus
+{
+    border:1px solid rgb(117, 116, 116);
+}
+
+.pass
+{
+    position: absolute;
+    width: 290px;
+    border: 1px solid #ccc;
+    background-color: rgb(243, 240, 240);
+    border-radius: 5px;
+    height: 40px;
+    left: 30px;
+    padding-left:8px;
+    display: inline-block;
+    top:170px;
+
+
+}
+
+.pass:focus
+{
+    border:1px solid rgb(117, 116, 116);
+}
+
+.sub
+{
+    top:220px;
+    left: 30px;
+    position: absolute;
+    border:1px solid #24a0ed;
+    background-color: #0b95e6;
+    color:white;
+    font-size: 13px;
+    border-radius: 5px;
+    height: 35px;
+    width: 290px;
+    font-weight: bold;
+    opacity: 0.3;
+    
+}
+
+.line
+{
+    -webkit-box-flex:1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 1px;
+    position: absolute;
+    top:280px;
+    left: 30px;
+    background-color: rgb(161, 158, 158);;
+    width: 120px;
+}
+.line1
+{
+    -webkit-box-flex:1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 1px;
+    position: absolute;
+    top:280px;
+    left: 200px;
+    background-color: rgb(161, 158, 158);;
+    width: 120px;
+
+}
+.or{
+    position: absolute;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    color:rgb(161, 158, 158);
+    
+}
+
+.o{
+    position: absolute;
+    top:272px;
+    left:164px;
+    font-size: 16px;
+
+}
+
+.login .fb
+{
+    height: 18px;
+    top:320px;
+    left:90px;
+    position: absolute;
+}
+
+
+.log
+{
+    position: absolute;
+    top:320px;
+    text-decoration: none;
+    left: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color:rgb(77, 93, 128);
+}
+
+
+.fp a
+{
+    position: absolute;
+    top: 360px;
+    left:120px;
+    font-size: 11px;
+    color:rgb(77, 93, 128); 
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+
+.dnt
+{
+    background-color: white;
+    width:350px;
+    top:102%;
+    position: absolute;
+    height:60px;
+    border: 0.9px solid rgba(207, 204, 204, 0.521);
+    text-align: center;
+    padding-top: 13px;
+    color: rgba(61, 60, 60, 0.836);
+}
+
+.dnt a 
+{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color:#3897f0;
+}
+
+
+.gp
+{
+    top:120%;
+    position: absolute;
+    left: 38%;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(56, 53, 53, 0.856);
+}
+
+
+.id
+{
+    top:130%;
+    position: absolute;
+}
+
+
+.id .as
+{
+    position: absolute;
+    height: 43px;
+    left:35px;
+    top:10px;
+    width:140px;
+    cursor: pointer;
+}
+
+.id .gpl
+{
+    position: absolute;
+    height: 63px;
+    left:173px;
+    top:110%;
+    cursor: pointer;
+}
+
+.foot
+{
+    top:95%;
+    font-family: 'Poppins', sans-serif;
+    left: 90px;
+    position: absolute;
+    font-size: 12px;
+    color:rgb(77, 93, 128);
+}
+
+.dd
+{
+    color:rgb(77, 93, 128);
+    font-size: 13px;
+}
+
+#cp
+{
+    color: rgba(128, 128, 128, 0.733);
+}
+
+
+@media screen and (max-width:780px)
+{
+    .foot
+    {
+        display: none;
+    }
+}
+
+
+#tq
+{
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.ca
+{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jss
+{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(7, 6, 6, 0.685);
+    text-align: center;
+}
+
+.xx
+{
+    background:linear-gradient(to right , rgba(37, 36, 36, 0.856), rgb(182, 177, 177));
+}
